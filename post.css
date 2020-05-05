@@ -12,6 +12,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+#post-header {
+    color: #a399cc;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    grid-area: hd;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 125px;
+}
+
+
+.navigation{
+    grid-area: sd;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 2.5em;
+    color: #a399cc;
+    font-size: larger;
+}
+
+
 .footer {
     grid-area: ft;
     display: flex;
