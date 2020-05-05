@@ -76,6 +76,11 @@
 }
 
 
+h2 {
+    color: #eab8e3;
+}
+
+
 .footer {
     grid-area: ft;
     display: flex;
