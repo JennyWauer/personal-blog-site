@@ -21,14 +21,16 @@
 
 .navigation{
     grid-area: sd;
-    display: grid;
+    display: flex;
     border: 5px solid red;
 }
 
 .home-content{
     grid-area: main;
-    display: flex;
+    display: grid;
     border: 5px solid yellow;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .footer {
