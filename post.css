@@ -76,6 +76,15 @@
 }
 
 
+.fit-equip {
+    float: left;
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
 h2 {
     color: #eab8e3;
 }
