@@ -28,6 +28,7 @@
     grid-area: sd;
     display: flex;
     border: 5px solid red;
+    padding: 10px;
 }
 
 /* formatting of main page content*/
@@ -37,7 +38,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .post-box {
