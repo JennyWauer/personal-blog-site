@@ -67,6 +67,9 @@
     grid-area: ft;
     display: flex;
     border: 5px solid blue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-options {
