@@ -57,7 +57,10 @@
 }
 
 .section {
-    
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+    margin-left: 100px;
 }
 
 
