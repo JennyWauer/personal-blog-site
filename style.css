@@ -35,7 +35,7 @@
     border: 5px solid yellow;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    padding: 25px;
+    padding: 50px;
     margin: 15px;
 }
 
