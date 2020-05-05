@@ -76,6 +76,10 @@
     width: 50px;
 }
 
+html {
+    background-color: #f4f4f8;
+}
+
 @media(min-width:600px) and (max-width:1100px){
     #post-container {
         display: grid;
