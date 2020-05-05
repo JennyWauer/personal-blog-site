@@ -1,6 +1,11 @@
 #main-header {
     color: #a399cc;
-    display: grid;
+    display: flex;
     border: 5px solid black;
     height: 150px;
+}
+
+.logo {
+    width: auto;
+    height: 125px;
 }
