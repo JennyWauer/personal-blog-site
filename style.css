@@ -29,6 +29,7 @@
     border: 5px solid red;
 }
 
+/* formatting of main page content*/
 .home-content{
     grid-area: main;
     display: grid;
@@ -38,32 +39,7 @@
     margin: 15px;
 }
 
-.new-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 5px solid #c1e7e3;
-    text-align: center;
-    margin: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
-
-.second-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 5px solid #c1e7e3;
-    text-align: center;
-    margin: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
-
-
-.third-post {
+.post-box {
     display: flex;
     flex-direction: column;
     align-items: center;
