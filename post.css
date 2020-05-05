@@ -68,8 +68,11 @@
     
 }
 
-.tips :: before {
+
+.title {
     color: #eab8e3;
+    text-decoration: underline;
+    text-decoration-color: #c1e7e3;
 }
 
 
