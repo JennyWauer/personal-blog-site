@@ -76,6 +76,16 @@
 html {
     background-color: #f4f4f8;
 }
+
+.button {
+    background-color: #eab8e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 #808080;
+    padding: 10px;
+    color: black;
+}
+
+
 @media(min-width:600px) and (max-width 1100px){
     #grid-container {
         display: grid;
