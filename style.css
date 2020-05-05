@@ -30,21 +30,34 @@
     display: grid;
     border: 5px solid yellow;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     padding: 5px;
     margin: 15px;
 }
 
 .new-post {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid orange;
+    text-align: center;
 }
 
 .second-post {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid orange;
+    text-align: center;
 }
 
 
 .third-post {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid orange;
+    text-align: center;
 }
 
 
