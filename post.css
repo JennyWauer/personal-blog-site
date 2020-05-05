@@ -46,7 +46,7 @@
 }
 
 
-/* formatting of main page content*/
+/* formatting of post page content*/
 .post-content{
     grid-area: main;
     display: grid;
@@ -61,6 +61,15 @@
     flex-direction: column;
     margin-right: 250px;
     margin-left: 100px;
+}
+
+.tips {
+    list-style-type: square;
+    
+}
+
+.tips :: before {
+    color: #eab8e3;
 }
 
 
