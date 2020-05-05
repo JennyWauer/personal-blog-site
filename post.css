@@ -87,6 +87,8 @@
 h2 {
     color: #eab8e3;
     font-size: 24pt;
+    text-decoration: underline;
+    text-decoration-color: #c1e7e3;
 }
 
 
