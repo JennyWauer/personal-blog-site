@@ -1,4 +1,6 @@
 .main-header {
     color: #a399cc;
-
+    display: grid;
+    border: 5px solid black;
+    height: 150px;
 }
