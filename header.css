@@ -1,0 +1,13 @@
+#main-header {
+    color: #a399cc;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    grid-area: hd;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 125px;
+}
