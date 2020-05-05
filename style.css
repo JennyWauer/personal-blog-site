@@ -29,6 +29,9 @@
     display: flex;
     border: 5px solid red;
     padding: 10px;
+    font-weight: bold;
+    line-height: 2.5em;
+    color: #a399cc;
 }
 
 /* formatting of main page content*/
