@@ -32,10 +32,9 @@
 .home-content{
     grid-area: main;
     display: grid;
-    border: 5px solid yellow;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    padding: 50px;
+    padding: 15px;
     margin: 15px;
 }
 
