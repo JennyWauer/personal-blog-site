@@ -11,9 +11,22 @@
     display: flex;
     border: 5px solid black;
     height: 150px;
+    grid-area: hd;
 }
 
 .logo {
     width: auto;
     height: 125px;
+}
+
+.navigation{
+    grid-area: sd;
+}
+
+.home-content{
+    grid-area: main;
+}
+
+.footer {
+    grid-area: ft;
 }
