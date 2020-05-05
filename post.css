@@ -77,30 +77,10 @@
 }
 
 
-.fit-equip {
-    float: left;
-    margin: 5px;
+.post-photo {
     width: 250px;
     height: 200px;
     object-fit: contain;
-}
-
-
-.colaboration {
-    float: right;
-    margin: 5px;
-    width: 250px;
-    height: 200px;
-    object-fit: contain;
-}
-
-
-.journaling-pic {
-    float: left;
-    margin: 5px;
-    width: 250px;
-    height: 200px;
-    object-fit: contain;    
 }
 
 
