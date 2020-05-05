@@ -46,6 +46,17 @@
 }
 
 
+/* formatting of main page content*/
+.home-content{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 15px;
+    margin: 10px;
+}
+
+
 .footer {
     grid-area: ft;
     display: flex;
