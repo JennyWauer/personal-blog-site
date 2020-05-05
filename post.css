@@ -11,3 +11,16 @@
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft-element {
+    margin: 5px;
+    color: #a399cc;
+}
