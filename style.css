@@ -21,12 +21,22 @@
 
 .navigation{
     grid-area: sd;
+    display: flex;
+    border: 5px solid red;
 }
 
 .home-content{
     grid-area: main;
+    display: flex;
+    border: 5px solid yellow;
 }
 
 .footer {
     grid-area: ft;
+    display: flex;
+    border: 5px solid blue;
+}
+
+.nav-options {
+    list-style-type: none;
 }
