@@ -29,9 +29,24 @@
     grid-area: main;
     display: grid;
     border: 5px solid yellow;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    margin: 15px;
 }
+
+.new-post {
+    
+}
+
+.second-post {
+
+}
+
+
+.third-post {
+
+}
+
 
 .footer {
     grid-area: ft;
