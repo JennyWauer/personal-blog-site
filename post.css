@@ -1,4 +1,6 @@
 @import url("header.css");
+@import url("footer.css");
+
 
 /*Media for mobile*/
 #post-container {
@@ -78,25 +80,6 @@ h2 {
     font-style: italic;
 }
 
-
-.footer {
-    grid-area: ft;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.ft-element {
-    margin: 5px;
-    color: #a399cc;
-}
-
-
-.social-media {
-    height: 50px;
-    width: 50px;
-}
 
 html {
     background-color: #f4f4f8;
