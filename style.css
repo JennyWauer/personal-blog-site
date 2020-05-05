@@ -36,7 +36,6 @@
 }
 
 /* formatting of main page content*/
-/*gotta figure out how to scale the photos for smaller/bigger monitors...*/
 .home-content{
     grid-area: main;
     display: grid;
@@ -67,7 +66,6 @@
 .footer {
     grid-area: ft;
     display: flex;
-    border: 5px solid blue;
     flex-direction: row;
     align-items: center;
     justify-content: center;
