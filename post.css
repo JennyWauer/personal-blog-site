@@ -3,14 +3,11 @@
 @import url("navigation.css");
 
 /*Media for mobile*/
+
 #post-container {
     display: grid;
     grid-gap: 15px;
-    grid-template-areas: 
-    "hd"
-    "sd"
-    "main"
-    "ft";
+    grid-template-areas: "hd" "sd" "main" "ft";
     margin: 20px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +15,8 @@
 
 
 /* formatting of post page content*/
-.post-content{
+
+.post-content {
     grid-area: main;
     display: grid;
     grid-template-rows: auto;
@@ -39,7 +37,6 @@
     font-weight: bold;
 }
 
-
 .title {
     color: #eab8e3;
     text-decoration: underline;
@@ -47,13 +44,11 @@
     font-size: 32pt;
 }
 
-
 .post-photo {
     width: 250px;
     height: 200px;
     object-fit: contain;
 }
-
 
 h2 {
     color: #eab8e3;
@@ -63,33 +58,26 @@ h2 {
     font-style: italic;
 }
 
-
 html {
     background-color: #f4f4f8;
 }
 
-@media(min-width:600px) and (max-width:1100px){
+@media(min-width:600px) and (max-width:1100px) {
     #post-container {
         display: grid;
         grid-gap: 15px;
-        grid-template-areas: 
-        "hd hd hd hd hd hd"
-        "sd sd main main main main"
-        "ft ft ft ft ft ft";
+        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
         margin: 20px;
         padding: 5px;
     }
-    }
+}
 
-    @media(min-width:1100px){
-        #post-container {
-            display: grid;
-            grid-gap: 15px;
-            grid-template-areas: 
-            "hd hd hd hd hd hd"
-            "sd sd main main main main"
-            "ft ft ft ft ft ft";
-            margin: 20px;
-            padding: 5px;
-        }
-        }
+@media(min-width:1100px) {
+    #post-container {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
+        margin: 20px;
+        padding: 5px;
+    }
+}

@@ -3,14 +3,11 @@
 @import url("navigation.css");
 
 /*Media for mobile*/
+
 #grid-container {
     display: grid;
     grid-gap: 15px;
-    grid-template-areas: 
-    "hd"
-    "sd"
-    "main"
-    "ft";
+    grid-template-areas: "hd" "sd" "main" "ft";
     margin: 20px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +15,8 @@
 
 
 /* formatting of main page content*/
-.home-content{
+
+.home-content {
     grid-area: main;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,7 +43,6 @@
     object-fit: cover;
 }
 
-
 html {
     background-color: #f4f4f8;
 }
@@ -60,34 +57,26 @@ button {
     font-size: 16px;
 }
 
-
 .blog-post {
     text-decoration: none;
 }
 
-
-@media(min-width:600px) and (max-width:1100px){
+@media(min-width:600px) and (max-width:1100px) {
     #grid-container {
         display: grid;
         grid-gap: 15px;
-        grid-template-areas: 
-        "hd hd hd hd hd hd"
-        "sd sd main main main main"
-        "ft ft ft ft ft ft";
+        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
         margin: 20px;
         padding: 5px;
     }
-    }
+}
 
-    @media(min-width:1100px){
-        #grid-container {
-            display: grid;
-            grid-gap: 15px;
-            grid-template-areas: 
-            "hd hd hd hd hd hd"
-            "sd sd main main main main"
-            "ft ft ft ft ft ft";
-            margin: 20px;
-            padding: 5px;
-        }
-        }
+@media(min-width:1100px) {
+    #grid-container {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
+        margin: 20px;
+        padding: 5px;
+    }
+}
