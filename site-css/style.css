@@ -1,10 +1,10 @@
-@import url("header.css");
-@import url("footer.css");
-@import url("navigation.css");
+@import "header.css";
+@import "footer.css";
+@import "navigation.css";
 
 /*Media for mobile*/
 
-#post-container {
+#grid-container {
     display: grid;
     grid-gap: 15px;
     grid-template-areas: "hd" "sd" "main" "ft";
@@ -14,56 +14,55 @@
 }
 
 
-/* formatting of post page content*/
+/* formatting of main page content*/
 
-.post-content {
+.home-content {
     grid-area: main;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-template-columns: auto;
     padding: 15px;
     margin: 10px;
 }
 
-.section {
+.post-box {
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
-    margin-left: 100px;
+    align-items: center;
+    border: 5px solid #c1e7e3;
+    text-align: center;
+    margin: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
 }
 
-.tips {
-    list-style-type: square;
-    font-weight: bold;
-}
-
-.title {
-    color: #eab8e3;
-    text-decoration: underline;
-    text-decoration-color: #c1e7e3;
-    font-size: 32pt;
-}
-
-.post-photo {
-    width: 250px;
-    height: 200px;
-    object-fit: contain;
-}
-
-h2 {
-    color: #eab8e3;
-    font-size: 24pt;
-    text-decoration: underline;
-    text-decoration-color: #c1e7e3;
-    font-style: italic;
+.thumbnail {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
 }
 
 html {
     background-color: #f4f4f8;
 }
 
+button {
+    background-color: #eab8e3;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 #808080;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.blog-post {
+    text-decoration: none;
+}
+
 @media(min-width:600px) and (max-width:1100px) {
-    #post-container {
+    #grid-container {
         display: grid;
         grid-gap: 15px;
         grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
@@ -73,7 +72,7 @@ html {
 }
 
 @media(min-width:1100px) {
-    #post-container {
+    #grid-container {
         display: grid;
         grid-gap: 15px;
         grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
