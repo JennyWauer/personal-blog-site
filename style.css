@@ -61,6 +61,11 @@ button {
 }
 
 
+.blog-post {
+    text-decoration: none;
+}
+
+
 @media(min-width:600px) and (max-width:1100px){
     #grid-container {
         display: grid;
