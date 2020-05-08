@@ -71,13 +71,3 @@ html {
         padding: 5px;
     }
 }
-
-@media(min-width:1100px) {
-    #post-container {
-        display: grid;
-        grid-gap: 15px;
-        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
-        margin: 20px;
-        padding: 5px;
-    }
-}
