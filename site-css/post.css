@@ -5,69 +5,68 @@
 /*Media for mobile*/
 
 #post-container {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-areas: "hd" "sd" "main" "ft";
-    margin: 20px;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: "hd" "sd" "main" "ft";
+  margin: 20px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* formatting of post page content*/
 
 .post-content {
-    grid-area: main;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    padding: 15px;
-    margin: 10px;
+  grid-area: main;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  padding: 15px;
+  margin: 10px;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    margin-right: 250px;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 250px;
+  margin-left: 100px;
 }
 
 .tips {
-    list-style-type: square;
-    font-weight: bold;
+  list-style-type: square;
+  font-weight: bold;
 }
 
 .title {
-    color: #eab8e3;
-    text-decoration: underline;
-    text-decoration-color: #c1e7e3;
-    font-size: 32pt;
+  color: #eab8e3;
+  text-decoration: underline;
+  text-decoration-color: #c1e7e3;
+  font-size: 32pt;
 }
 
 .post-photo {
-    width: 250px;
-    height: 200px;
-    object-fit: contain;
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
 }
 
 h2 {
-    color: #eab8e3;
-    font-size: 24pt;
-    text-decoration: underline;
-    text-decoration-color: #c1e7e3;
-    font-style: italic;
+  color: #eab8e3;
+  font-size: 24pt;
+  text-decoration: underline;
+  text-decoration-color: #c1e7e3;
+  font-style: italic;
 }
 
 html {
-    background-color: #f4f4f8;
+  background-color: #f4f4f8;
 }
 
-@media(min-width:600px) {
-    #post-container {
-        display: grid;
-        grid-gap: 15px;
-        grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
-        margin: 20px;
-        padding: 5px;
-    }
+@media (min-width: 600px) {
+  #post-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: "hd hd hd hd hd hd" "sd sd main main main main" "ft ft ft ft ft ft";
+    margin: 20px;
+    padding: 5px;
+  }
 }

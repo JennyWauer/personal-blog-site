@@ -1,15 +1,15 @@
-.navigation{
-    grid-area: sd;
-    display: flex;
-    padding: 10px;
-    font-weight: bold;
-    line-height: 2.5em;
-    color: #a399cc;
-    font-size: larger;
+.navigation {
+  grid-area: sd;
+  display: flex;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 2.5em;
+  color: #a399cc;
+  font-size: larger;
 }
 
 .nav-options {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

@@ -1,18 +1,17 @@
 .footer {
-    grid-area: ft;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  grid-area: ft;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .ft-element {
-    margin: 5px;
-    color: #a399cc;
+  margin: 5px;
+  color: #a399cc;
 }
 
-
 .social-media {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
